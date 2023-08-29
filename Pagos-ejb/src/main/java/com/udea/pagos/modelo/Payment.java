@@ -46,6 +46,7 @@ public class Payment implements Serializable {
     private String name;
     @Basic(optional = false)
     @Column(name = "email")
+    
     private String email;
     @Basic(optional = false)
     @Column(name = "amount")
